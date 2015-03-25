@@ -16,31 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        
+    
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
         
-        // create a MCItemsViewController
+        // create a ViewControllers
         let qtMainView = QuickTipsViewController()
+        let dtMainView = DeliveryTipsViewController()
         
+        // create tabBarController and load the 2 views in
+        var tabBarController = UITabBarController()
+        tabBarController.viewControllers = [qtMainView, dtMainView];
         
-        self.window!.rootViewController = qtMainView
+        // root view
+        self.window!.rootViewController = tabBarController
         
-        
-        // create an instance of a UINavigationController
-        // its stack contains only itemsViewController
-//        UINavigationController *navController = [[UINavigationController alloc]
-//        initWithRootViewController:itemsViewController];
-//        
-//        // place navigation controllers in view hierarchy and remove itemsViewController
-//        // as the root view controller
-//        self.window.rootViewController = navController;
-//        
-//        // place the MCItemsViewController's table view in the window hierarchy
-//        //    self.window.rootViewController = itemsViewController;
-//        
-
         
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
