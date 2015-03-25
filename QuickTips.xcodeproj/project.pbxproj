@@ -14,6 +14,8 @@
 		95092F0B1AC33A0A00F03903 /* QuickTipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95092F091AC33A0A00F03903 /* QuickTipsViewController.xib */; };
 		9576344B1AC37A2100B7341F /* DeliveryTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957634491AC37A2100B7341F /* DeliveryTipsViewController.swift */; };
 		9576344C1AC37A2100B7341F /* DeliveryTipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9576344A1AC37A2100B7341F /* DeliveryTipsViewController.xib */; };
+		9576344F1AC380DD00B7341F /* delv.png in Resources */ = {isa = PBXBuildFile; fileRef = 9576344D1AC380DD00B7341F /* delv.png */; };
+		957634501AC380DD00B7341F /* rest.png in Resources */ = {isa = PBXBuildFile; fileRef = 9576344E1AC380DD00B7341F /* rest.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		95092F091AC33A0A00F03903 /* QuickTipsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickTipsViewController.xib; sourceTree = "<group>"; };
 		957634491AC37A2100B7341F /* DeliveryTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryTipsViewController.swift; sourceTree = "<group>"; };
 		9576344A1AC37A2100B7341F /* DeliveryTipsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliveryTipsViewController.xib; sourceTree = "<group>"; };
+		9576344D1AC380DD00B7341F /* delv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delv.png; path = ../../../Desktop/delv.png; sourceTree = "<group>"; };
+		9576344E1AC380DD00B7341F /* rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rest.png; path = ../../../Desktop/rest.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				95092F091AC33A0A00F03903 /* QuickTipsViewController.xib */,
 				957634491AC37A2100B7341F /* DeliveryTipsViewController.swift */,
 				9576344A1AC37A2100B7341F /* DeliveryTipsViewController.xib */,
+				9576344D1AC380DD00B7341F /* delv.png */,
+				9576344E1AC380DD00B7341F /* rest.png */,
 				95092EEF1AC3393900F03903 /* Images.xcassets */,
 				95092EE61AC3393900F03903 /* Supporting Files */,
 			);
@@ -196,7 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9576344C1AC37A2100B7341F /* DeliveryTipsViewController.xib in Resources */,
+				957634501AC380DD00B7341F /* rest.png in Resources */,
 				95092F0B1AC33A0A00F03903 /* QuickTipsViewController.xib in Resources */,
+				9576344F1AC380DD00B7341F /* delv.png in Resources */,
 				95092EF01AC3393900F03903 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,6 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let qtMainView = QuickTipsViewController()
         let dtMainView = DeliveryTipsViewController()
         
+        qtMainView.tabBarItem.title = "Restaurant"
+        dtMainView.tabBarItem.title = "Delivery"
+        
         // create tabBarController and load the 2 views in
         var tabBarController = UITabBarController()
         tabBarController.viewControllers = [qtMainView, dtMainView];

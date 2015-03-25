@@ -21,9 +21,9 @@
                 <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="AuQ-Ab-we5">
                     <rect key="frame" x="49" y="287" width="222" height="29"/>
                     <segments>
-                        <segment title="18%"/>
-                        <segment title="20%"/>
-                        <segment title="22%"/>
+                        <segment title="10%"/>
+                        <segment title="12%"/>
+                        <segment title="15%"/>
                     </segments>
                     <connections>
                         <action selector="tipAmountSelected:" destination="-1" eventType="valueChanged" id="c6U-ix-MLr"/>

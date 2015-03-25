@@ -15,10 +15,10 @@ class DeliveryTipsViewController: UIViewController {
     @IBOutlet weak var totalAmount: UILabel!
     @IBOutlet weak var tipPercentage: UISegmentedControl!
     
-    
     // load the view from the xib
     override func loadView() {
         NSBundle.mainBundle().loadNibNamed("DeliveryTipsViewController", owner: self, options: nil)
+
     }
     
     override func viewDidLoad() {
@@ -30,13 +30,12 @@ class DeliveryTipsViewController: UIViewController {
         tipAmount.text = "$0.00"
         totalAmount.text = "$0.00"
         
-        
     }
     
     
     @IBAction func tipAmountSelected(sender: UISegmentedControl) {
         
-        var tipValues = [0.18, 0.20, 0.22]
+        var tipValues = [0.10, 0.12, 0.15]
         var billString = billAmount.text
         var billDouble = Double((billString as NSString).doubleValue)
         var tip = billDouble * tipValues[tipPercentage.selectedSegmentIndex]

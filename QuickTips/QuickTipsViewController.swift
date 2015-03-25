@@ -20,6 +20,7 @@ class QuickTipsViewController: UIViewController {
     // load the view from the xib
     override func loadView() {
         NSBundle.mainBundle().loadNibNamed("QuickTipsViewController", owner: self, options: nil)
+        
     }
     
     
