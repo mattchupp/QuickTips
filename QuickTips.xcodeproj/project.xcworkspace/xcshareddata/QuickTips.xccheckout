@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>715A8B5B-82BE-4BC1-9417-6BF9B76E11BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuickTips</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FECE2D66F8C5FEDE7A74D848230B2FE385D7A2FA</key>
+		<string>https://github.com/mattchupp/QuickTips.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QuickTips.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FECE2D66F8C5FEDE7A74D848230B2FE385D7A2FA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mattchupp/QuickTips.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FECE2D66F8C5FEDE7A74D848230B2FE385D7A2FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FECE2D66F8C5FEDE7A74D848230B2FE385D7A2FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuickTips</string>
+		</dict>
+	</array>
+</dict>
+</plist>
