@@ -6,6 +6,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeliveryTipsViewController" customModule="QuickTips" customModuleProvider="target">
             <connections>
+                <outlet property="billAmount" destination="GdG-DY-wWh" id="qyW-PQ-sNR"/>
+                <outlet property="tipAmount" destination="zj8-Z1-I3m" id="8O3-rf-eNd"/>
+                <outlet property="tipPercentage" destination="AuQ-Ab-we5" id="QKT-hu-Dea"/>
+                <outlet property="totalAmount" destination="Qrk-dy-8o1" id="PWD-CR-aBt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,6 +25,9 @@
                         <segment title="20%"/>
                         <segment title="22%"/>
                     </segments>
+                    <connections>
+                        <action selector="tipAmountSelected:" destination="-1" eventType="valueChanged" id="c6U-ix-MLr"/>
+                    </connections>
                 </segmentedControl>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bill amount:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unk-71-cJj">
                     <rect key="frame" x="42" y="103" width="91" height="21"/>
