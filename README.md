@@ -1,0 +1,3 @@
+# QuickTips
+
+iOS tip calculator
