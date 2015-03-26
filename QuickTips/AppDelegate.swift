@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // create tabBarController and load the 2 views in
         var tabBarController = UITabBarController()
         tabBarController.viewControllers = [qtMainView, dtMainView];
+        tabBarController.view.backgroundColor = UIColor.clearColor()
         
         // root view
         self.window!.rootViewController = tabBarController
