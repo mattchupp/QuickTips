@@ -35,8 +35,7 @@ class QuickTipsViewController: UIViewController {
         
         
     }
-    
-    
+        
     @IBAction func tipAmountSelected(sender: UISegmentedControl) {
    
         var tipValues = [0.18, 0.20, 0.22]

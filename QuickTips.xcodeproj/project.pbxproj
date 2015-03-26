@@ -81,10 +81,9 @@
 			children = (
 				95092EE81AC3393900F03903 /* AppDelegate.swift */,
 				95092F081AC33A0A00F03903 /* QuickTipsViewController.swift */,
-				95092F091AC33A0A00F03903 /* QuickTipsViewController.xib */,
 				957634491AC37A2100B7341F /* DeliveryTipsViewController.swift */,
+				95092F091AC33A0A00F03903 /* QuickTipsViewController.xib */,
 				9576344A1AC37A2100B7341F /* DeliveryTipsViewController.xib */,
-				95092EEF1AC3393900F03903 /* Images.xcassets */,
 				95092EE61AC3393900F03903 /* Supporting Files */,
 			);
 			path = QuickTips;
@@ -93,6 +92,7 @@
 		95092EE61AC3393900F03903 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95092EEF1AC3393900F03903 /* Images.xcassets */,
 				95092EE71AC3393900F03903 /* Info.plist */,
 			);
 			name = "Supporting Files";
