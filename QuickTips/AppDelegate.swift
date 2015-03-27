@@ -23,13 +23,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // create a ViewControllers
         let qtMainView = QuickTipsViewController()
         let dtMainView = DeliveryTipsViewController()
+        let btMainView = BarberTipsViewController()
         
         qtMainView.tabBarItem.title = "Restaurant"
         dtMainView.tabBarItem.title = "Delivery"
+        btMainView.tabBarItem.title = "Barber"
         
         // create tabBarController and load the 2 views in
         var tabBarController = UITabBarController()
-        tabBarController.viewControllers = [qtMainView, dtMainView];
+        tabBarController.viewControllers = [qtMainView, dtMainView, btMainView];
         tabBarController.view.backgroundColor = UIColor.clearColor()
         
         // root view

@@ -10,7 +10,6 @@ import UIKit
 
 class QuickTipsViewController: UIViewController {
     
-    
     @IBOutlet weak var billAmount: UITextField!
     @IBOutlet weak var tipAmount: UILabel!
     @IBOutlet weak var totalAmount: UILabel!
@@ -23,7 +22,6 @@ class QuickTipsViewController: UIViewController {
         
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,7 +30,6 @@ class QuickTipsViewController: UIViewController {
         billAmount.becomeFirstResponder()
         tipAmount.text = "$0.00"
         totalAmount.text = "$0.00"
-        
         
     }
         
